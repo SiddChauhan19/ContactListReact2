@@ -1,0 +1,75 @@
+.formContainer {
+  width: 100%;
+  margin: 5% 0;
+  position: relative;
+}
+
+.formHeader {
+  font-style: italic;
+  text-align: center;
+}
+
+.innerForm {
+  width: 70vw;
+  background-color: #edba7b8f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formInput {
+  width: 90%;
+  margin-top: 10px;
+}
+
+input {
+  width: 80%;
+  height: 50px;
+  outline: none;
+  font-size: 20px;
+  color: #ed741e;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 3px solid #b9b6b6;
+  border-radius: 10px;
+}
+
+.name,
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.submitBtn>Button {
+  width: 150px;
+  position: relative;
+  padding: 2px;
+  border-radius: 9px;
+  border: 1px solid gray;
+}
+
+.submitBtn>Button>img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 2px;
+  object-fit: contain;
+}
+
+
+
+.submitBtn>Button>span {
+  position: absolute;
+  font-size: 19px;
+  bottom: 2px;
+  font-weight: 600;
+  left: 47px;
+}

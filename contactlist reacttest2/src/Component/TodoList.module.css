@@ -1,0 +1,58 @@
+.TodoList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  margin: 5px 0;
+  border-radius: 10px;
+  background-color: #6d87e7ee;
+  color: #f5e5e5;
+}
+
+.details {
+  margin-left: 1%;
+}
+
+.userName {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullname {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.nickname {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.userDetails {
+  width: 50vw;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contactBtn {
+  margin-right: 10px;
+}
+
+.contactBtn>button {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 0 2px;
+  border: 1px solid lightblue;
+
+}
+
+.contactBtn>button>img {
+  object-fit: contain;
+  width: 30px;
+  height: 35px px;
+}
